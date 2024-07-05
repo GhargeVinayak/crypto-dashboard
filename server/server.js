@@ -6,7 +6,7 @@ const cors = require('cors'); // Middleware to enable CORS (Cross-Origin Resourc
 
 // Create an Express application
 const app = express();
-const port = 3000; // Define the port the server will run on
+const port = 3001; // Define the port the server will run on
 
 app.use(cors()); // Use the CORS middleware to allow cross-origin requests
 

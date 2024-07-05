@@ -1,21 +1,36 @@
-.App {
-  text-align: center;
+
+/* Add styles for light mode */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light-mode .App-header {
+  background-color: #f0f0f0;
+}
+
+/* Add styles for dark mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .App-header {
+  background-color: #1f1f1f;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
 }
-
+.timer-mode{
+  display: flex;
+}
 table {
-  width: 80%;
-  margin: 20px auto;
+  width: 100%;
+  margin-top: 20px;
   border-collapse: collapse;
 }
 
@@ -24,11 +39,15 @@ th, td {
   border: 1px solid #ddd;
 }
 
-th {
-  background-color: #4CAF50;
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
   color: white;
+  cursor: pointer;
 }
 
-p {
-  font-size: 1.2em;
+button:hover {
+  background-color: #0056b3;
 }
